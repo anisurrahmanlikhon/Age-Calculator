@@ -1,2 +1,2 @@
 # Age-Calculator
-https://anisurrahmanlikohn.github.io/Age-Calculator/
+https://anisurrahmanlikhon.github.io/Age-Calculator/
