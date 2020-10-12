@@ -34,12 +34,12 @@ h1{
 	<body>
 	    <h1><cenrter>Age Calculator</cenrter></h1>
 		Date Of Birth: 
-		<input type="date" id="birth_date">
+		<input type="date" id="birth_date"><br> <br>
 		<input class="btn" type="button" value="Calculate Age" onclick="ageCalculate()">
-        <br/><br/>
+        <br><br>
         Age: 
-        <br/>
-        <br/>
+        <br>
+        <br>
         <div id="age"></div>
         
 <p id="demo"></p>
@@ -93,15 +93,15 @@ h1{
         }
         else {
             document.getElementById("age").innerHTML = year_age + " years " + month_age + " months " + day_age + " days"
-            + "<br/> or <br/> " 
+            + "<br> or <br> " 
             + tMnt + " months " + day_age + " days" 
-            + "<br/> or <br/>" 
+            + "<br> or <br>" 
             +  tDays + " days" 
-            + "<br/> or <br/>" 
+            + "<br> or <br>" 
             +  tDays*24 + " hours" 
-            + "<br/> or <br/>" 
+            + "<br> or <br>" 
             +  tDays*24*3600 + " seconds" 
-            + "<br/> or <br/>" 
+            + "<br> or <br>" 
             +  tDays*24*3600*1000 + " miliseconds" ;
         }
 
